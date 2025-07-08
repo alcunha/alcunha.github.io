@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "This list is a selected subset and may not be up to date. For a full list of publications please see my [CV](/assets/pdf/cv.pdf).",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
