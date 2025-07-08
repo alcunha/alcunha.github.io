@@ -2,6 +2,7 @@
 ---
 
 @article{roy2024towards,
+  bibtex_show={true},
   author = {Roy, D. B. and Alison, J. and August, T. A. and B{\'e}lisle, M. and Bjerge, K. and Bowden, J. J. and Bunsen, M. J. and Cunha, F. and Geissmann, Q. and Goldmann, K. and Gomez-Segura, A. and Jain, A. and Huijbers, C. and Larriv{\'e}e, M. and Lawson, J. L. and Mann, H. M. and Mazerolle, M. J. and McFarland, K. P. and Pasi, L. and Peters, S. and Pinoy, N. and Rolnick, D. and Skinner, G. L. and Strickson, O. T. and Svenning, A. and Teagle, S. and H{\o}ye, T. T.},
   title={Towards a standardized framework for {AI}-assisted, image-based monitoring of nocturnal insects},
   journal={Philosophical Transactions of the Royal Society B},
@@ -9,19 +10,27 @@
   number={1904},
   pages={20230108},
   year={2024},
-  publisher={The Royal Society}
+  publisher={The Royal Society},
+  doi={10.1098/rstb.2023.0108},
+  abstract={Automated sensors have potential to standardize and expand the monitoring of insects across the globe. As one of the most scalable and fastest developing sensor technologies, we describe a framework for automated, image-based monitoring of nocturnal insects—from sensor development and field deployment to workflows for data processing and publishing. Sensors comprise a light to attract insects, a camera for collecting images and a computer for scheduling, data storage and processing. Metadata is important to describe sampling schedules that balance the capture of relevant ecological information against power and data storage limitations. Large data volumes of images from automated systems necessitate scalable and effective data processing. We describe computer vision approaches for the detection, tracking and classification of insects, including models built from existing aggregations of labelled insect images. Data from automated camera systems necessitate approaches that account for inherent biases. We advocate models that explicitly correct for bias in species occurrence or abundance estimates resulting from the imperfect detection of species or individuals present during sampling occasions. We propose ten priorities towards a step-change in automated monitoring of nocturnal insects, a vital task in the face of rapid biodiversity loss from global threats.}
 }
 
 @InProceedings{Cunha2021,
+    bibtex_show={true},
     author    = {Cunha, Fagner and dos Santos, Eulanda M. and Barreto, Raimundo and Colonna, Juan G.},
     title     = {Filtering Empty Camera Trap Images in Embedded Systems},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
     month     = {June},
     year      = {2021},
-    pages     = {2438-2446}
+    pages     = {2438-2446},
+    arxiv = {2104.08859},
+    doi = {10.1109/CVPRW53098.2021.00276},
+    code = {https://github.com/alcunha/filtering-empty-camera-trap-images},
+    abstract = { Monitoring wildlife through camera traps produces a massive amount of images, whose a significant portion does not contain animals, being later discarded. Embedding deep learning models to identify animals and filter these images directly in those devices brings advantages such as savings in the storage and transmission of data, usually resource-constrained in this type of equipment. In this work, we present a comparative study on animal recognition models to analyze the trade-off between precision and inference latency on edge devices. To accomplish this objective, we investigate classifiers and object detectors of various input resolutions and optimize them using quantization and reducing the number of model filters. The confidence threshold of each model was adjusted to obtain 96% recall for the nonempty class, since instances from the empty class are expected to be discarded. The experiments show that, when using the same set of images for training, detectors achieve superior performance, eliminating at least 10% more empty images than classifiers with comparable latencies. Considering the high cost of generating labels for the detection problem, when there is a massive number of images labeled for classification (about one million instances, ten times more than those available for detection), classifiers are able to reach results comparable to detectors but with half latency.}
 }
 
 @article{cunha2023bag,
+  bibtex_show={true},
   title={Bag of tricks for long-tail visual recognition of animal species in camera-trap images},
   author={Cunha, Fagner and dos Santos, Eulanda M and Colonna, Juan G},
   journal={Ecological Informatics},
@@ -32,21 +41,26 @@
 }
 
 @inproceedings{jain2024,
+  bibtex_show={true},
   title={Insect Identification in the Wild: The {AMI} Dataset},
-  author = {Jain, Aditya and Cunha, Fagner and Bunsen, Michael James and Cañas, Juan Sebastián and Pasi, Léonard and Pinoy, Nathan and Helsing, Flemming and Russo, JoAnne and Botham, Marc and Sabourin, Michael and Fréchette, Jonathan and Anctil, Alexandre and Lopez, Yacksecari and Navarro, Eduardo and Perez Pimentel, Filonila and Zamora, Ana Cecilia and Ramirez Silva, José Alejandro and Gagnon, Jonathan and August, Tom and Bjerge, Kim and Gomez Segura, Alba and Bélisle, Marc and Basset, Yves and McFarland, Kent P and Roy, David and Høye, Toke Thomas and Larrivée, Maxim and Rolnick, David},
+  author = {Jain*, Aditya and Cunha*, Fagner and Bunsen*, Michael James and Cañas, Juan Sebastián and Pasi, Léonard and Pinoy, Nathan and Helsing, Flemming and Russo, JoAnne and Botham, Marc and Sabourin, Michael and Fréchette, Jonathan and Anctil, Alexandre and Lopez, Yacksecari and Navarro, Eduardo and Perez Pimentel, Filonila and Zamora, Ana Cecilia and Ramirez Silva, José Alejandro and Gagnon, Jonathan and August, Tom and Bjerge, Kim and Gomez Segura, Alba and Bélisle, Marc and Basset, Yves and McFarland, Kent P and Roy, David and Høye, Toke Thomas and Larrivée, Maxim and Rolnick, David},
   booktitle={European Conference on Computer Vision},
   year={2024},
   publisher="Springer Nature Switzerland",
+  annotation={* Equal contribution}
 }
 
 @inproceedings{jain2023a,
+  bibtex_show={true},
   title={A machine learning pipeline for automated insect monitoring},
-  author={Jain, Aditya and Cunha, Fagner and Bunsen, Michael and Pasi, Léonard and Viklund, Anna and Larrivee, Maxim and Rolnick, David},
+  author={Jain*, Aditya and Cunha*, Fagner and Bunsen*, Michael and Pasi, Léonard and Viklund, Anna and Larrivee, Maxim and Rolnick, David},
   booktitle={NeurIPS 2023 Workshop on Tackling Climate Change with Machine Learning},
-  year={2023}
+  year={2023},
+  annotation={* Equal contribution}
 }
 
 @inproceedings{alencar2023context,
+  bibtex_show={true},
   title={A Context-Aware Approach for Filtering Empty Images in Camera Trap Data Using Siamese Network},
   author={Alencar, Luiz and Cunha, Fagner and dos Santos, Eulanda M},
   booktitle={2023 36th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)},
@@ -56,6 +70,7 @@
 }
 
 @inproceedings{alencar2024zero,
+  bibtex_show={true},
   title={Zero and Few-Shot Learning with Modern MLLMs to Filter Empty Images in Camera Trap Data},
   author={Alencar, Luiz and Cunha, Fagner and dos Santos, Eulanda M},
   booktitle={2024 37th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)},
