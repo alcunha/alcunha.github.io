@@ -405,16 +405,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-filtering-empty-camera-trap-images-in-embedded-systems-has-been-accepted-for-the-mobile-ai-workshop-and-challenges-at-cvpr-2021-tada-tada",
+          title: 'Our paper Filtering Empty Camera Trap Images in Embedded Systems has been accepted...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-won-the-iwildcam-2021-challange-tada-a-thrilling-finish-with-leaderboard-shake-ups-until-the-very-end",
+          title: 'I won the iWildCam 2021 challange! :tada: A thrilling finish with leaderboard shake-ups...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-m-at-cvpr-2021-online-presenting-my-paper-filtering-empty-camera-trap-images-in-embedded-systems-at-the-mai-workshop",
+          title: 'I’m at CVPR 2021 (online), presenting my paper “Filtering Empty Camera Trap Images...',
+          description: "",
+          section: "News",},{id: "news-i-m-presenting-my-solutions-to-the-iwildcam-and-inat-challenges-at-the-8th-workshop-on-fine-grained-visual-categorization-fgvc-at-cvpr-2021",
+          title: 'I’m presenting my solutions to the iWildCam and iNat challenges at the 8th...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
