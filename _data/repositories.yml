@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - alcunha/bagoftricks4cameratraps
+  - alcunha/filtering-empty-camera-trap-images
+  - alcunha/iwildcam2021ufam
+  - alcunha/inat2021ufam
+  - alcunha/geo_prior_tf
+  - RolnickLab/ami-ml
