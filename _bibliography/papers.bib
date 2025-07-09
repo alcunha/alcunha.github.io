@@ -12,10 +12,12 @@
   year={2024},
   publisher={The Royal Society},
   doi={10.1098/rstb.2023.0108},
+  preview={ami_workflow.png},
   abstract={Automated sensors have potential to standardize and expand the monitoring of insects across the globe. As one of the most scalable and fastest developing sensor technologies, we describe a framework for automated, image-based monitoring of nocturnal insects—from sensor development and field deployment to workflows for data processing and publishing. Sensors comprise a light to attract insects, a camera for collecting images and a computer for scheduling, data storage and processing. Metadata is important to describe sampling schedules that balance the capture of relevant ecological information against power and data storage limitations. Large data volumes of images from automated systems necessitate scalable and effective data processing. We describe computer vision approaches for the detection, tracking and classification of insects, including models built from existing aggregations of labelled insect images. Data from automated camera systems necessitate approaches that account for inherent biases. We advocate models that explicitly correct for bias in species occurrence or abundance estimates resulting from the imperfect detection of species or individuals present during sampling occasions. We propose ten priorities towards a step-change in automated monitoring of nocturnal insects, a vital task in the face of rapid biodiversity loss from global threats.}
 }
 
 @InProceedings{Cunha2021,
+    abbr={CVPR},
     bibtex_show={true},
     author    = {Cunha, Fagner and dos Santos, Eulanda M. and Barreto, Raimundo and Colonna, Juan G.},
     title     = {Filtering Empty Camera Trap Images in Embedded Systems},
@@ -27,6 +29,7 @@
     doi = {10.1109/CVPRW53098.2021.00276},
     code = {https://github.com/alcunha/filtering-empty-camera-trap-images},
     selected={true},
+    preview={pr_filtering.png},
     abstract = { Monitoring wildlife through camera traps produces a massive amount of images, whose a significant portion does not contain animals, being later discarded. Embedding deep learning models to identify animals and filter these images directly in those devices brings advantages such as savings in the storage and transmission of data, usually resource-constrained in this type of equipment. In this work, we present a comparative study on animal recognition models to analyze the trade-off between precision and inference latency on edge devices. To accomplish this objective, we investigate classifiers and object detectors of various input resolutions and optimize them using quantization and reducing the number of model filters. The confidence threshold of each model was adjusted to obtain 96% recall for the nonempty class, since instances from the empty class are expected to be discarded. The experiments show that, when using the same set of images for training, detectors achieve superior performance, eliminating at least 10% more empty images than classifiers with comparable latencies. Considering the high cost of generating labels for the detection problem, when there is a massive number of images labeled for classification (about one million instances, ten times more than those available for detection), classifiers are able to reach results comparable to detectors but with half latency.}
 }
 
@@ -43,10 +46,12 @@
   arxiv = {2206.12458},
   doi = {10.1016/j.ecoinf.2023.102060},
   code = {https://github.com/alcunha/bagoftricks4cameratraps},
+  preview = {ssb.png},
   abstract = {Camera traps are a method for monitoring wildlife and they collect a large number of pictures. The number of images collected of each species usually follows a long-tail distribution, i.e., a few classes have a large number of instances, while a lot of species have just a small percentage. Although in most cases these rare species are the ones of interest to ecologists, they are often neglected when using deep-learning models because these models require a large number of images for the training. In this work, a simple and effective framework called Square-Root Sampling Branch (SSB) is proposed, which combines two classification branches that are trained using square-root sampling and instance sampling to improve long-tail visual recognition, and this is compared to state-of-the-art methods for handling this task: square-root sampling, class-balanced focal loss, and balanced group softmax. To achieve a more general conclusion, the methods for handling long-tail visual recognition were systematically evaluated in four families of computer vision models (ResNet, MobileNetV3, EfficientNetV2, and Swin Transformer) and four camera-trap datasets with different characteristics. Initially, a robust baseline with the most recent training tricks was prepared and, then, the methods for improving long-tail recognition were applied. Our experiments show that square-root sampling was the method that most improved the performance for minority classes by around 15%; however, this was at the cost of reducing the majority classes' accuracy by at least 3%. Our proposed framework (SSB) demonstrated itself to be competitive with the other methods and achieved the best or the second-best results for most of the cases for the tail classes; but, unlike the square-root sampling, the loss in the performance of the head classes was minimal, thus achieving the best trade-off among all the evaluated methods. Our experiments also show that Swin Transformer can achieve high performance for rare classes without applying any additional method for handling imbalance, and attains an overall accuracy of 88.76% for the WCS dataset and 94.97% for Snapshot Serengeti using a location-based training/test partition. Despite the improvement in the tail classes' performance, our experiments highlight the need for better methods for handling long-tail visual recognition in camera-trap images, since state-of-the-art approaches achieve poor performance, especially in classes with just a few training instances.}
 }
 
 @inproceedings{jain2024,
+  abbr={ECCV},
   bibtex_show={true},
   title={Insect Identification in the Wild: The {AMI} Dataset},
   author = {Jain*, Aditya and Cunha*, Fagner and Bunsen*, Michael James and Cañas, Juan Sebastián and Pasi, Léonard and Pinoy, Nathan and Helsing, Flemming and Russo, JoAnne and Botham, Marc and Sabourin, Michael and Fréchette, Jonathan and Anctil, Alexandre and Lopez, Yacksecari and Navarro, Eduardo and Perez Pimentel, Filonila and Zamora, Ana Cecilia and Ramirez Silva, José Alejandro and Gagnon, Jonathan and August, Tom and Bjerge, Kim and Gomez Segura, Alba and Bélisle, Marc and Basset, Yves and McFarland, Kent P and Roy, David and Høye, Toke Thomas and Larrivée, Maxim and Rolnick, David},
@@ -57,10 +62,12 @@
   arxiv = {2406.12452},
   doi = {10.1007/978-3-031-72913-3_4},
   abstract = {Insects represent half of all global biodiversity, yet many of the world’s insects are disappearing, with severe implications for ecosystems and agriculture. Despite this crisis, data on insect diversity and abundance remain woefully inadequate, due to the scarcity of human experts and the lack of scalable tools for monitoring. Ecologists have started to adopt camera traps to record and study insects, and have proposed computer vision algorithms as an answer for scalable data processing. However, insect monitoring in the wild poses unique challenges that have not yet been addressed within computer vision, including the combination of long-tailed data, extremely similar classes, and significant distribution shifts. We provide the first large-scale machine learning benchmarks for fine-grained insect recognition, designed to match real-world tasks faced by ecologists. Our contributions include a curated dataset of images from citizen science platforms and museums, and an expert-annotated dataset drawn from automated camera traps across multiple continents, designed to test out-of-distribution generalization under field conditions. We train and evaluate a variety of baseline algorithms and introduce a combination of data augmentation techniques that enhance generalization across geographies and hardware setups. The dataset is made publicly available https://github.com/RolnickLab/ami-dataset.},
-  annotation={* Equal contribution}
+  annotation={* Equal contribution},
+  preview={ami.png}
 }
 
 @inproceedings{jain2023a,
+  abbr={NeurIPS},
   bibtex_show={true},
   title={A machine learning pipeline for automated insect monitoring},
   author={Jain*, Aditya and Cunha*, Fagner and Bunsen*, Michael and Pasi, Léonard and Viklund, Anna and Larrivee, Maxim and Rolnick, David},
@@ -79,6 +86,7 @@
   pages={85--90},
   year={2023},
   organization={IEEE},
+  preview={siamese.png},
   doi = {10.1109/SIBGRAPI59091.2023.10347159},
   abstract = {This paper presents a method based on a Siamese convolutional neural network (CNN) for filtering empty images captured by camera traps. The proposed method takes into account information of the environment surrounding the camera by comparing captured images with empty reference images obtained regularly from the same capture locations. Reference images are expected to highlight local vegetation features such as rocks, mountains and lakes. By calculating the similarity between the two images, the Siamese network determines whether or not the captured image contains an animal. We present a protocol to provide image pairs to train the models, as well as the data augmentation techniques employed to enhance the training procedure. Three different CNN models are used as backbones for the Siamese network: MobileNetV2, ResNet50, and EfficientNetBO. In addition, experiments are conducted on three popular camera trap datasets: Snapshot Serengeti, Caltech and WCS. The results demonstrate the effectiveness of the proposed method due to the information of the capture location considered, and its potential for wildlife monitoring applications.}
 }
@@ -91,5 +99,6 @@
   year={2024},
   organization={IEEE},
   doi = {10.1109/SIBGRAPI62404.2024.10716305},
+  preview = {mllm.png},
   abstract = {Camera traps are typically equipped with motion or heat sensors and capture images of wild animals with little human interference. The recording of an event is activated when the sensor is triggered, which often results in huge volume of images, mainly empty ones. This study addresses the challenge of filtering out empty images, which is a crucial step for efficient data storage, transmission and automatic classification. We investigate the use of large-scale multimodal language models (MLLMs) in zero-shot and few-shot approaches for filtering empty images. We analyze whether or not the visual and textual data integration performed by MLLMs enhance their ability to detect animal presence. Three MLLMs are investigated: CLIP, BLIP, and Gemini. They are also compared to a model specially designed to filter out empty images in camera trap data: a ResNet50-Siamese. In our experiments, we compare the learning approaches across three datasets: Snapshot Serengeti, Caltech, and WCS. Our results indicate that few-shot learning significantly improves the performance of MLLMs, especially BLIP. However, these models face challenges such as high computational demands and sensitivity to environmental variations.}
 }
