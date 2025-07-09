@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{id: "nav-news",
-          title: "news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -416,6 +416,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-m-presenting-my-solutions-to-the-iwildcam-and-inat-challenges-at-the-8th-workshop-on-fine-grained-visual-categorization-fgvc-at-cvpr-2021",
           title: 'I’m presenting my solutions to the iWildCam and iNat challenges at the 8th...',
+          description: "",
+          section: "News",},{id: "news-our-paper-a-context-aware-approach-for-filtering-empty-images-in-camera-trap-data-using-siamese-network-received-the-best-paper-award-at-sibgrapi-2023-trophy-tada",
+          title: 'Our paper “A Context-Aware Approach for Filtering Empty Images in Camera Trap Data...',
+          description: "",
+          section: "News",},{id: "news-our-paper-insect-identification-in-the-wild-the-ami-dataset-has-been-accepted-as-an-oral-presentation-at-eccv-2024-tada-tada",
+          title: 'Our paper “Insect Identification in the Wild: The AMI Dataset” has been accepted...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
