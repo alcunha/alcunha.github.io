@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! My name is Fagner. I am a PhD candidate at [UFAM](https://www.ufam.edu.br/), supervised by Professor [Eulanda Miranda dos Santos](https://numeros.icomp.ufam.edu.br/eulanda). I develop computer vision solutions for ecological monitoring challenges under real-world constraints, such as those posed by camera-trap data.
+Hi! My name is Fagner. I hold a PhD in Computer Science from [UFAM](https://www.ufam.edu.br/) and currently work as a Machine Learning Engineer at [Nubank](https://nubank.com.br/). My background is in computer vision, deep learning, and applied machine learning.
 
 My work bridges applied research and real-world problem-solving, addressing challenges like fine-grained classification, extremely imbalanced long-tailed distributions, hierarchical prediction, and domain shift.
 
